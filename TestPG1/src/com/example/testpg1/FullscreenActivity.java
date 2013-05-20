@@ -51,6 +51,7 @@ public class FullscreenActivity extends DroidGap {
         super.onCreate(savedInstanceState);
 
         //setContentView(R.layout.activity_fullscreen);
+        //This means we are going to load the web page into the native screen
         super.loadUrl("file:///android_asset/www/index.html");
 
             }
